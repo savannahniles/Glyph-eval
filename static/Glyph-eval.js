@@ -148,7 +148,7 @@ function setRandomImage(index) {
 
 function setYtid (Ytid) {
 	playerDiv = document.getElementById("player");
-	playerDiv.setAttribute('src', "http://www.youtube.com/embed/" + Ytid + "?enablejsapi=1&theme=light&showinfo=0&modestbranding=1&controls=0&autoplay=1");
+	playerDiv.setAttribute('src', "http://www.youtube.com/embed/" + Ytid + "?enablejsapi=1&theme=light&showinfo=0&modestbranding=1&autoplay=1");
 	player.mute();
 }
 
